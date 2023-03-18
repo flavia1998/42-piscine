@@ -21,14 +21,14 @@ void	ft_swap(int *a, int *b)
 	*b = aux;
 }
 
-// int main(void)
-// {
-// int a = 8;
-// int b = 4;
-// printf("Valor a inicial : %d \n", a);
-// printf("Valor b inicial: %d \n", b);
-// printf("---------------------\n");
-// ft_swap(&a, &b);
-// printf("Valor a swap: %d \n", a);
-// printf("Valor b swap: %d \n", b);
-// }
+ int main(void)
+{
+int a = 8;
+int b = 4;
+printf("Valor a inicial : %d \n", a);
+printf("Valor b inicial: %d \n", b);
+printf("---------------------\n");
+ft_swap(&a, &b);
+printf("Valor a swap: %d \n", a);
+printf("Valor b swap: %d \n", b);
+ }
