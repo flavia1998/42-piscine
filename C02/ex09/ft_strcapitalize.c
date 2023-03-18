@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <unistd.h>
-// #include <stdio.h>
+ #include <unistd.h>
+ #include <stdio.h>
 
 char	ft_chlowcase(char ch)
 {
@@ -45,10 +45,9 @@ char	*ft_strcapitalize(char *str)
 	return (str);
 }
 
-// int main (void)
-// {
-// 	char str[80]="\nola, tudo bem?
-// 42pala;vras quareNta-e-duas; cinQu>enta+e+um";
-// 	 ft_strcapitalize(str);
-// 	 printf("%s",str);
-// }
+ int main (void)
+ {
+ 	char str[80]="\nola, tudo bem? 42pala;vras quareNta-e-duas; cinQu>enta+e+um";
+ 	 ft_strcapitalize(str);
+ 	 printf("%s",str);
+ }
