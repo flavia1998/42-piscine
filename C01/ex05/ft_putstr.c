@@ -24,8 +24,8 @@ void	ft_putstr(char *str)
 	}
 }
 
-// int main ()
-// {
-// 	char str [8]= "maria";
-// 	ft_putstr(str);
-// }
+int main ()
+{
+ 	char str [8]= "maria";
+	ft_putstr(str);
+}
