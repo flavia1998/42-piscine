@@ -29,9 +29,9 @@ char	*ft_strupcase(char *str)
 }
  int main ()
  {
- char str [10]= "8sGf";
+   char str [10]= "8sGf";
 
- ft_strupcase(str);
- printf("%s",str);
+   ft_strupcase(str);
+   printf("%s",str);
 
  }
