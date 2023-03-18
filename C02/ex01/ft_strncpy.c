@@ -31,15 +31,15 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	return (dest);
 }
 
-// int main ()
-// {
-// 	char src[50]="joa";
-// 	char dest[50];
-// 	int n = 8;
+int main ()
+ {
+ 	char src[50]="joa";
+ 	char dest[50];
+ 	int n = 8;
 
-// 	ft_strncpy(dest,src,n);
-// 	printf("%s \n",dest);
+ 	ft_strncpy(dest,src,n);
+ 	printf("%s \n",dest);
 
-// 	strncpy(dest,src,n);
-// 	printf("%s",dest);
-// }
+ 	strncpy(dest,src,n);
+ 	printf("%s",dest);
+ }
