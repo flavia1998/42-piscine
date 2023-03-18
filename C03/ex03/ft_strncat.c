@@ -44,12 +44,12 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 
 // int main(void)
 // {
-// 	char src[50] = "daniel";
-// 	char dest[50] = "flavia";
+// 	char src[50] = "cidade";
+// 	char dest[50] = "porto";
 // 	char* result = ft_strncat(dest, src, 3);
 // 	printf("%s\n", result);
-// 	char src1[50] = "daniel";
-// 	char dest1[50] = "flavia";
+// 	char src1[50] = "cidade";
+// 	char dest1[50] = "porto";
 // 	printf("%s", strncat(dest1, src1, 3));
 // 	return 0;
 // }
