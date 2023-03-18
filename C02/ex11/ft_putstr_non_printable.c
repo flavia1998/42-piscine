@@ -41,9 +41,9 @@ void	ft_putstr_non_printable(char *str)
 	}
 }
 
-// int main(void)
-// {
-// 	char str[90]="lulajd jkasdgka lZJX NBCZHF '\t' slahz";
-// 	ft_putstr_non_printable(str);
-// 	ft_putchar('\n');
-// }
+ int main(void)
+ {
+ 	char str[90]="lulajd jkasdgka lZJX NBCZHF '\t' slahz";
+ 	ft_putstr_non_printable(str);
+ 	ft_putchar('\n');
+ }
