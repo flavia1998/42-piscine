@@ -28,10 +28,10 @@ int	ft_str_is_numeric(char *str)
 	return (1);
 }
 
-// int main(void)
-// {
-// 	char str[] = " ATD-*/ ";
-// 	int retr;
-// 	retr = ft_str_is_numeric (str);
-// 	 printf("%d \n",retr);
-// }
+ int main(void)
+ {
+ 	char str[] = " ATD-*/ ";
+ 	int retr;
+ 	retr = ft_str_is_numeric (str);
+ 	 printf("%d \n",retr);
+ }
