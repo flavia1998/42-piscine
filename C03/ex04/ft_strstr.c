@@ -35,9 +35,10 @@ char	*ft_strstr(char *str, char *to_find)
 	return (0);
 }
 
-// int main () {
-//    char str[20] = "Hello, how are you?";
+// int main ()
+{
+//  char str[20] = "Hello, how are you?";
 //  char searchString[10] = "hofw";
-//   printf("%s", ft_strstr(str, searchString));
-//    return 0;
+//  printf("%s", ft_strstr(str, searchString));
+//  return 0;
 // }
