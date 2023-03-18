@@ -28,9 +28,9 @@ int	ft_str_is_lowercase(char *str)
 	return (1);
 }
 
-/*int main()
+int main()
 {
 	char str [5] = "ADG8";
 	int ret = ft_str_is_lowercase(str);
 	printf("%d",ret);
-}*/
+}
