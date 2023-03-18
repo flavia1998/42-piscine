@@ -44,8 +44,8 @@ char	*ft_strcat(char *dest, char *src)
 
 // int main (void)
 // {
-// 	char dest [50] = "flavia";
-// 	char src [50] = "daniel";
+// 	char dest [50] = "cidade";
+// 	char src [50] = "porto";
 // 	ft_strcat(dest,src);
 // 	printf("%s",dest);
 // }
