@@ -28,9 +28,9 @@ int	ft_str_is_printable(char *str)
 	return (1);
 }
 
-// int main ()
-// {
-// 	char str [50] = " ";
-// 	int ret = ft_str_is_printable(str);
-// 	printf("%d",ret);
-// }
+ int main ()
+ {
+ 	char str [50] = " ";
+ 	int ret = ft_str_is_printable(str);
+ 	printf("%d",ret);
+ }
