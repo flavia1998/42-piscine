@@ -26,11 +26,11 @@ char	*ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-//int main(void)
-//{
-// char dest[10]="maria";
-// char src [10]="joana";
-//	ft_strcpy(dest,src);
-//	printf ("%s \n",dest);
-//	return (0);	
-//}
+int main(void)
+{
+ char dest[10]="maria";
+ char src [10]="joana";
+	ft_strcpy(dest,src);
+	printf ("%s \n",dest);
+	return (0);	
+}
