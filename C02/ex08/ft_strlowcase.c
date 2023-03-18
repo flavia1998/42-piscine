@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+ #include <stdio.h>
 
 char	*ft_strlowcase(char *str)
 {
@@ -28,9 +28,9 @@ char	*ft_strlowcase(char *str)
 	return (str);
 }
 
-// int main ()
-// {
-// char str [10]= " F VtG";
-// ft_strlowcase(str);
-// printf("%s",str);
-// }
+ int main ()
+ {
+ 	char str [10]= " F VtG";
+ 	ft_strlowcase(str);
+ 	printf("%s",str);
+ }
