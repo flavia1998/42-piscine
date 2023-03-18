@@ -86,7 +86,7 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 
 // int main(void)
 // {
-// 	char *strs[3] = {"joca","lua","42"};
+// 	char *strs[3] = {"42","porto","portugal"};
 // 	char *array;
 // 	array = ft_strjoin(3,strs,", ");
 // 	printf("%s\n",array);
