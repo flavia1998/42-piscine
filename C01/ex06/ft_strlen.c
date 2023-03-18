@@ -22,10 +22,10 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-//int main()
-//{
-	//char str [10] = "milhases";
-	//int size = ft_strlen(str);
-	//printf("O tamanho: %d\n",size);
-	//return 0;
-//}
+int main()
+{
+	char str [10] = "maria";
+	int size = ft_strlen(str);
+	printf("O tamanho: %d\n",size);
+	return 0;
+}
