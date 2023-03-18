@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+ #include <stdio.h>
 
 int	ft_str_is_uppercase(char *str)
 {
@@ -28,11 +28,11 @@ int	ft_str_is_uppercase(char *str)
 	return (1);
 }
 
-// int main (void)
-// {
-// 	char  str[10] = "";	
-// 	 int ret;
-// 	 ret = ft_str_is_uppercase(str);
-// 	 printf("%d\n",ret);
-// 	return 0;
-// }
+ int main (void)
+ {
+	char  str[10] = "";	
+ 	 int ret;
+ 	 ret = ft_str_is_uppercase(str);
+ 	 printf("%d\n",ret);
+ 	return 0;
+ }
