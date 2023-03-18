@@ -37,7 +37,7 @@ void	ft_sort_int_tab(int *tab, int size)
 	}
 }
 
-/*int main(void)
+int main(void)
 {	int tab [5] = { 2,6,3,4,5};
 	int size = sizeof(tab)/sizeof(tab[0]);
 	
@@ -51,4 +51,4 @@ void	ft_sort_int_tab(int *tab, int size)
 	}
 
 	return (0);
-}*/
+}
