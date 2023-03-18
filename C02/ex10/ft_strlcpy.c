@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <string.h>
-// #include <stdio.h>
+ #include <string.h>
+ #include <stdio.h>
 
 unsigned	int	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
@@ -36,13 +36,13 @@ unsigned	int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	return (t_src);
 }
 
-// int main(void)
-// {
-//     char src[50] = "lk";
-//     char dest[50];
-//     unsigned int size = 6;
-//     ft_strlcpy(dest, src, size);
-//     printf("%s", dest);
-//     printf("\n");
-//     return 0;
-// }
+ int main(void)
+ {
+     char src[50] = "lk";
+     char dest[50];
+     unsigned int size = 6;
+     ft_strlcpy(dest, src, size);
+     printf("%s", dest);
+     printf("\n");
+     return 0;
+ }
