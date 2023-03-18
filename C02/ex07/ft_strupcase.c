@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+ #include <stdio.h>
 
 char	*ft_strupcase(char *str)
 {
@@ -27,11 +27,11 @@ char	*ft_strupcase(char *str)
 	}
 	return (str);
 }
-// int main ()
-// {
-// char str [10]= "8sGf";
+ int main ()
+ {
+ char str [10]= "8sGf";
 
-// ft_strupcase(str);
-// printf("%s",str);
+ ft_strupcase(str);
+ printf("%s",str);
 
-// }
+ }
